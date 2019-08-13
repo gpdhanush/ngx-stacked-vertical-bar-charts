@@ -1,6 +1,4 @@
-import { Component, NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { Component } from '@angular/core';
 import { multi } from './data';
 @Component({
   selector: 'my-app',
