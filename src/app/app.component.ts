@@ -8,7 +8,7 @@ import { multi } from './data';
 export class AppComponent  {
 
 single: any[];
-  ChartData: any[];
+  multi: any[];
 
   view: any[] = [700, 400];
 
@@ -33,5 +33,4 @@ single: any[];
   onSelect(event) {
     console.log(event);
   }
-} 
 }
