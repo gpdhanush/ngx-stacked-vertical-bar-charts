@@ -1,7 +1,7 @@
 import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
-import { ChartData } from './data';
+import { multi } from './data';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
@@ -29,7 +29,7 @@ single: any[];
   };
 
   constructor() {
-    Object.assign(this, {ChartData})   
+    Object.assign(this, {multi})   
   }
   
   onSelect(event) {

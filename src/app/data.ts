@@ -1,4 +1,4 @@
-export var ChartData = [
+export var multi = [
   {
     "name": "United States",
     "series": [
